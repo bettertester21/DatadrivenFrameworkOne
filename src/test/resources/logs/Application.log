@@ -1,0 +1,78 @@
+00:31:48.870 [main] INFO  - In start of the setUp()
+00:31:48.916 [main] INFO  - Platform is: linux
+00:31:50.157 [main] INFO  - userDir: /home/balaji/JavaSeleniumFiles/Github/bettertester21/DatadrivenFrameworkOne
+00:31:50.157 [main] INFO  - excelPath: /home/balaji/JavaSeleniumFiles/EclipseWorkspace/DatadrivenFramework/src/test/resources/testdata/Testdata.xlsx
+00:31:50.158 [main] INFO  - configPath: /home/balaji/JavaSeleniumFiles/Github/bettertester21/DatadrivenFrameworkOne/src/test/resources/properties/config.properties
+00:31:53.012 [main] INFO  - Browser: CHROME
+00:31:53.012 [main] INFO  - appUrl: https://www.saucedemo.com/
+00:31:53.030 [main] INFO  - LINUX Platform
+00:32:00.260 [main] INFO  - Chrome browser is loaded!
+00:32:02.372 [main] INFO  - In end of the setUp()
+00:32:03.149 [main] INFO  - In start of the getData()
+00:32:03.235 [main] INFO  - excelPath: /home/balaji/JavaSeleniumFiles/Github/bettertester21/DatadrivenFrameworkOne/src/test/resources/testdata/Testdata.xlsx
+00:32:03.236 [main] INFO  - sheetName: loginTest
+00:32:03.236 [main] INFO  - Rows: 5
+00:32:03.236 [main] INFO  - Colss: 3
+00:32:03.266 [main] INFO  - In end of the getData()
+00:32:03.292 [main] INFO  - In validate Basic Test Configuration test
+00:32:03.458 [main] INFO  - Page title is: Swag Labs
+00:32:03.459 [main] INFO  - Username: standard_user and password is: secret_sauce
+00:32:23.575 [main] INFO  - Exception message is: stale element reference: stale element not found in the current frame
+  (Session info: chrome=158.0.8127.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '7.0.0-43-generic', java.version: '25.0.5.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18946eee350fceb65721a231535a8d51, isElementDisplayed {id=f.774ED77D96ED2FE3A23F848E2558C3C1.d.191F1CE060ACC51948BFF120CD49A659.e.5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.36, chrome: {chromedriverVersion: 158.0.8127.36 (14d6f648e8cd..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46387}, goog:processID: 112320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46387/devtoo..., se:cdpVersion: 158.0.8127.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (18946eee350fceb65721a231535a8d51)] -> xpath: //*[@id='login-button']]
+Session ID: 18946eee350fceb65721a231535a8d51
+00:32:23.611 [main] INFO  - In validate Basic Test Configuration test
+00:32:23.869 [main] INFO  - Page title is: Swag Labs
+00:32:23.874 [main] INFO  - Username: locked_out_user and password is: secret_sauce
+00:32:24.068 [main] INFO  - Exception message is: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='user-name']"}
+  (Session info: chrome=158.0.8127.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '7.0.0-43-generic', java.version: '25.0.5.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18946eee350fceb65721a231535a8d51, findElement {using=xpath, value=//*[@id='user-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.36, chrome: {chromedriverVersion: 158.0.8127.36 (14d6f648e8cd..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46387}, goog:processID: 112320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46387/devtoo..., se:cdpVersion: 158.0.8127.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18946eee350fceb65721a231535a8d51
+00:32:24.090 [main] INFO  - In validate Basic Test Configuration test
+00:32:24.118 [main] INFO  - Page title is: Swag Labs
+00:32:24.119 [main] INFO  - Username: problem_user and password is: secret_sauce
+00:32:24.170 [main] INFO  - Exception message is: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='user-name']"}
+  (Session info: chrome=158.0.8127.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '7.0.0-43-generic', java.version: '25.0.5.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18946eee350fceb65721a231535a8d51, findElement {using=xpath, value=//*[@id='user-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.36, chrome: {chromedriverVersion: 158.0.8127.36 (14d6f648e8cd..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46387}, goog:processID: 112320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46387/devtoo..., se:cdpVersion: 158.0.8127.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18946eee350fceb65721a231535a8d51
+00:32:24.207 [main] INFO  - In validate Basic Test Configuration test
+00:32:24.288 [main] INFO  - Page title is: Swag Labs
+00:32:24.288 [main] INFO  - Username: performance_glitch_user and password is: secret_sauce
+00:32:24.376 [main] INFO  - Exception message is: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='user-name']"}
+  (Session info: chrome=158.0.8127.36)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '7.0.0-43-generic', java.version: '25.0.5.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [18946eee350fceb65721a231535a8d51, findElement {using=xpath, value=//*[@id='user-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.36, chrome: {chromedriverVersion: 158.0.8127.36 (14d6f648e8cd..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46387}, goog:processID: 112320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46387/devtoo..., se:cdpVersion: 158.0.8127.36, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18946eee350fceb65721a231535a8d51
+00:32:24.475 [main] INFO  - In start of the getData()
+00:32:24.688 [main] INFO  - excelPath: /home/balaji/JavaSeleniumFiles/Github/bettertester21/DatadrivenFrameworkOne/src/test/resources/testdata/Testdata.xlsx
+00:32:24.688 [main] INFO  - sheetName: buyProductTest
+00:32:24.691 [main] INFO  - Rows: 5
+00:32:24.692 [main] INFO  - Colss: 6
+00:32:24.704 [main] INFO  - In end of the getData()
+00:32:24.715 [main] INFO  - In start of the buyProductTest()
+00:32:24.756 [main] INFO  - In start of the buyProductTest()
+00:32:24.784 [main] INFO  - In start of the buyProductTest()
+00:32:24.805 [main] INFO  - In start of the buyProductTest()
+00:32:25.558 [main] INFO  - In start of the tearDown()
+00:32:25.874 [main] INFO  - Browser is closed!
+00:32:25.874 [main] INFO  - In end of the tearDown()
